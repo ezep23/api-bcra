@@ -20,7 +20,7 @@ echo "hola mundo";
 <!-- Primeras variables -->
 
 <?php 
-# No pueden comenzar con un número y tampoco con un simbolo. 
+# No pueden comenzar con un número y tampoco con un simbolo. utilizan snake_case
 $año = 2024;
 # Enteros, booleanos, strings.
 # PHP -> lenguaje de tipado, debil y gradual.
@@ -43,5 +43,20 @@ echo gettype($año);
 # se pueden forzar datos con (tipo de dato)
 $edad = (int) 33;
 
-#gi
+#interpolación de cadenas (only "x")
+$output = "Hola tengo $edad";
 
+?>
+
+<h1>
+    <?= $output; ?>    
+<h1>
+
+<?php 
+#Constantes en php
+#BUENA PRACTICA -> DEFINIR EN UN ARCHIVO APARTE y no en medio del codigo
+
+# las anteriores serias globales,
+# locales: 
+
+const NOMBRE = "MIGUEEEL";
