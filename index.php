@@ -60,3 +60,20 @@ $output = "Hola tengo $edad";
 # locales: 
 
 const NOMBRE = "MIGUEEEL";
+
+#OPERADORES
+#Logicos y Aritmeticos 
+
+#SENTENCIAS DE CONTROL
+if ($edad > 60){
+    echo "Eres viejo";
+} else if ($edad > 50){
+    echo "Sos viejo pero estas";
+} else {
+    echo "Estás bien";
+} 
+
+#PLANTILLAS EN PHP - sintaxis alternativa
+# PARSE ERROR -> ES EL HORROR MÁS HORRIBLE
+
+
