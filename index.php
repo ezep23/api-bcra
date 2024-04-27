@@ -75,5 +75,4 @@ if ($edad > 60){
 
 #PLANTILLAS EN PHP - sintaxis alternativa
 # PARSE ERROR -> ES EL HORROR MÁS HORRIBLE
-
-
+#¿Que es ajax?
